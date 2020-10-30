@@ -1,2 +1,2 @@
 # siete-medio
- Juego del siete y medio
+ Sencillo juego del siete y medio con javascript.
