@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Juego de BlackJack</title>
+</head>
+<body>
+    <header class="titulo">
+        Siete y Medio
+    </header>
+    <div class="row mt-2">
+        <div id="botones" class="col text-center">
+            <button id="btnNuevo" class="btn btn-danger mx-2">Nuevo juego</buton>
+            <button id="btnPedir" class="btn btn-primary mx-2">Pedir carta</buton>
+            <button id="btnPlantar" class="btn btn-primary mx-2">Plantarse</buton>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas">
+                    <!-- Cartas jugador -->
+            </div>
+        </div>
+    </div>
+    <div class="row container mt-2">
+        <div class="col">
+            <h1>Computadora - <small>0</small></h1>
+            <div id="computadora-cartas">
+                    <!-- Cartas computadora -->
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/juego.js"></script>
+</body>
+</html>
